@@ -1,5 +1,5 @@
-# highschool-japan
-日本の高等学校
+# Junior / High School in Japan
+日本の中高等学校
 
 |変数名|説明|備考|
 |:---|:---|:---|
