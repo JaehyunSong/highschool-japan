@@ -1,6 +1,13 @@
 # Junior / High School in Japan
 日本の中高等学校
 
+## ファイル
+
+- `jhs_list.csv`：中学リスト
+- `hs_list.csv`：高校リスト
+
+## 変数
+
 |変数名|説明|備考|
 |:---|:---|:---|
 |`id`|識別番号||
@@ -14,6 +21,7 @@
 |`city`|市区町村名||
 |`ward`|行政区名|政令指定都市のみ|
 |`station`|最寄りの駅名||
+|`distance`|最寄りの駅からの徒歩距離（分）|中学データセットのみ|
 |`type`|学校の種類|国立、公立、私立|
 |`gender`|性別|共学、男子校、女子校、その他|
 |`review`|口コミ評価|5点満点|
@@ -23,5 +31,6 @@
 ## 出典
 
 - 収集日時：2025年6月23日
+- みんなの中学情報：<https://www.minkou.jp/junior/ranking/deviation/>
 - みんなの高校情報：<https://www.minkou.jp/hischool/ranking/deviation/>
 - 2020年国勢調査：<https://www.stat.go.jp/data/kokusei/2020/kekka.html>
